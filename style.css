@@ -1,0 +1,199 @@
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #304438;
+}
+.btn{
+    padding: 12px 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0;
+    transition: all ease-in .5s;
+}
+.btn-brand{
+    background-color: #304438;
+    color: #fff;
+}
+
+.btn-brand:hover{
+   border: 2px solid #304438;
+}
+
+.navbar .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #304438;
+    text-transform: uppercase;
+}
+#banner{
+    background: url('img/img1.png');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+#banner p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+section{
+    padding: 100px 0;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card {
+    border-radius: 0;
+    margin-top: 20px;
+    border: 3px solid #304438;
+    padding-inline: 3px;
+}
+
+.card .card-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#home h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#about .about1{
+    height: 80vh;
+    background: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#about .about2{
+    padding: 100px;
+}
+#about h2, #about h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#about {
+    background-color: red;
+}
+
+.testimonials{
+    border: 4px solid #304438;
+    padding: 75px;
+    margin-top: 20px;
+}
+
+.testimonials img{
+    width: 75px;
+    border-radius: 50%;
+}
+
+#faq {
+    background-color: #304438;
+}
+#faq h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: backround-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #be8f5d;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapse) {
+    background-color: #1d1c1c;
+    color: #fff;
+}
+
+.accordion-button:hover {
+    background-color: #be8f5d;
+    color: #fff;
+}
+
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+#footer ul.list-unstyled a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: rgb(236, 151, 25);
+}
+
+@media screen and (max-width: 767px) {
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner p {
+        font-size: 20px;
+    }
+
+    #home h2 {
+        font-size: 40px;
+    }
+
+    #home .container .row .col-lg-3 {
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #about .about1 {
+        height: 300px;
+        background: url('img/img3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #about .about2 {
+        padding: 40px;
+        
+    }
+    
+}
